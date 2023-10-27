@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script that displays lines containing the bush word
+ps auxf | grep bash

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script that displays all actice IPv4 on the machine
+ifconfig | grep -oP 'inet (.*?) ' | awk '{print $2}'

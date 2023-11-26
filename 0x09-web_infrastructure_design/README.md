@@ -4,4 +4,5 @@ This project is a collection of web infrastructure designs that could be impleme
 
 ## Authors
 Schandorf Osam-Frimpong
+
 Edmund Mensah

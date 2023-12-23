@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# welcome
+Host ubuntuserver
+	Hostname 100.25.137.64
+	Port 22
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
+	User ubuntu

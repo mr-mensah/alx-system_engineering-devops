@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#script that configures a server to the above requirements
+link="/etc/nginx/sites-enabled/default"
+target="/etc/nginx/sites-available/default"
+sudo rm $link
+sudo ln -s $target $link
+sudo service nginx restart
